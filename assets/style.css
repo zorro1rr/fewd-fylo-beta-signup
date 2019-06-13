@@ -1,0 +1,106 @@
+/* add global resets for box sizing, margin and padding */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+main {
+display: flex;
+flex-direction: column;
+margin-left: 60px;
+margin-right: 60px;
+width: 80%;
+height: 75%;
+align-items: center;
+justify-content: center;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  font-size: 2.5em;
+  color: hsl(243, 87%, 12%);
+  font-weight: 700;
+}
+
+p {
+  color: hsl(0, 0%, 50%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 94%;
+  font-size: x-large;
+  margin-left: -45px;
+}
+
+#left-section {
+  background: linear-gradient(to top right,#6560b1, #1A1569);
+  width: 45%;
+}
+
+.img2 {
+  margin-top: 19%;
+  margin-left: 13%;
+}
+
+#right-section {
+  width: 65%
+}
+
+/* header & Nav Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  width: 718.16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  width: 718.16px;
+  font-size: x-large;
+  font-family: 'Raleway', sans-serif;
+  color: hsl(243, 87%, 12%);
+}
+
+.signup1 {
+  flex-grow: 2;
+  height: 80px;
+  font-size: x-large;
+  margin-right: 1rem;
+}
+
+.signup2 {
+  font-size: x-large;
+  flex-grow: 1;
+  height: 80px;
+  background-color: hsl(163, 95%, 43%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
